@@ -7,6 +7,8 @@ Requires:
 - Pythonista app
 - MidiFire app
 
+MidiFire send the CoreMIDI message over UDP to the Pythonista app which then communicates to the Spark Amp over BLE.   
+
 ## Installation
 
 Purchase Pythonista   
