@@ -1,9 +1,4 @@
-from __future__ import print_function
 import cb
-import sound
-import time
-import struct
-
 import socket
 
 class SparkManager (object):
