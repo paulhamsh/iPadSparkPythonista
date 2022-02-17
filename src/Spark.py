@@ -14,13 +14,6 @@ class SparkManager (object):
             print('Connecting Spark')
             cb.connect_peripheral(p)
 
-        """        
-        if p.name and 'Akai LPD8 Wireless' in p.name and not self.midi:
-            self.midi=p
-            print('Connecting Akai')
-            cb.connect_peripheral(p)
-        """  	
-
     def did_connect_peripheral(self, p):
         print('Connected:', p.name)
         print('Discovering services...')
