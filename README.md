@@ -1,5 +1,5 @@
 # iPadSparkPythonista
-Change presets on the Spark 40 amp with only an ipad (no Spark app).
+Change presets on the Spark 40 amp with only an ipad (no Spark app).    
 Spark.py presents a midi interface over UDP for a midi app like MidiFire. This allows generic Midi control of the Spark amp.   
 Spark2.py connects to a midi bluetooth controller like the Akai LPD8 Wireless.  This allows the controller to control the Spark amp.    
 Requires:
